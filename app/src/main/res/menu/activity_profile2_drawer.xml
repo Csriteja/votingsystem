@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_updateProfile"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="Update Profile" />
+        <item
+            android:id="@+id/nav_Vote"
+            android:icon="@drawable/ic_done_black_24dp"
+            android:title="Vote in the Poll" />
+        <item
+            android:id="@+id/nav_Chat"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Message in the Forum" />
+
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_poll_black_24dp"
+            android:title="See Results"/>
+
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+
+    </group>
+
+</menu>
